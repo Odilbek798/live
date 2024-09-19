@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0
+}
+.container{
+    max-width: 1200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 15px;
+}
+
+.searchi{
+    padding-right: 100px;
+}
+header{
+    .search{
+        width: 471px;
+    }
+    .header_text{
+        display: flex;
+        gap: 20px;
+        padding: 17px;
+    }
+    .new_header{
+        display: flex;
+    }
+}
+.header_flex{
+    display: flex;
+    .span{
+        padding: 17px 15px;
+    }
+    span{
+        background-color: white;
+        height: 30px;
+        border: 1px;
+        border-radius: 30px;
+    }
+    button{
+        width: 120px;
+        height: 30px;
+        border: none;
+        border-radius:20px ;
+        background-color: rgb(155, 194, 227);
+        color: blue;
+    }
+    .footer_button{
+        padding: 13px 10px;
+    }
+}
+.rolling{
+    padding: 15px;
+    padding-right: 100px;
+}
+.hero_main{
+    display: flex;
+}
+.hero_second{
+    padding: 0 40px;
+    .hero_erin{
+        padding: 20px 0;
+    }
+    .hero_p{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .hero_button{
+        display: flex;
+        flex-direction: column;
+        padding-top: 170px;
+        padding-bottom: 30px;
+        button{
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+        }
+        .first{
+            background-color:  #007AFF;
+            color: white;
+        }
+        .second{
+            background-color: white;
+            color: #007AFF;
+        }
+    }
+}
+
+.live_cards{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+.live_h1{
+    padding-top: 100px;
+    padding: 10px 35px;
+}
+.card{
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+    img{
+        width: 290px;
+    }
+    .live_card{
+        h1{
+            padding: 0 20px;
+        }
+        img{
+            padding: 5px;
+        }
+    }
+    .live_for{
+        img{
+            width: 20px ;
+            height: 20px;
+            padding: 0 5px;
+        }
+        display: flex;
+        padding-top: 30px;
+    }
+    .live_cord{
+        padding: 0 18px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+}
